@@ -30,6 +30,7 @@ ul {
     padding-top: 20px;
     font-family: 'Raleway', sans-serif;
 }
+
 /* Displayed the nav as a table. */
 header > ul {
     display: table;
@@ -37,32 +38,34 @@ header > ul {
 }
 
 header > ul > li {
-	display: table-cell;
+    display: table-cell;
     text-align: center;
     list-style-type: none;
     width: 22px;
 }
+
 /* I used a slight variation of the styles from the p tag styles. */
 ul > li a {
     margin: 6px -3px;
     padding: 13px 5px;
     background-color: rgba(255, 255, 255, 0.61);
     text-decoration: none;
-    color: rgb(54, 143, 19);
+    color: rgb(37, 179, 204);
     font-size: 15px;
     vertical-align: middle;
-    border: rgba(84, 204, 37, 0.85) .75px solid;
+    border: rgba(28, 140, 160, 0.85) .75px solid;
     border-radius: 5px;
     transition: 0.3s;
 }
 
 ul li a:hover {
     transition: .1s;
-    color: rgb(54, 143, 19);
-    border: rgba(84, 204, 37, 0.85) .75px solid;
+    color: rgb(37, 179, 204);
+    border: rgba(28, 140, 160, 0.85) .75px solid;
     border-radius: 12px;
     transition: 0.3s;
 }
+
 h1 {
     font-size: 250%
 }
@@ -118,8 +121,6 @@ body h1 {
     color: rgb(37, 179, 204);
     font-family: 'Raleway', sans-serif;
 }
-
-
 
 p {
     max-width: 1200px;
@@ -224,15 +225,12 @@ textarea {
     clear: both;
 }
 
-@media only screen and (min-width: 35em) {
-    
-}
+@media only screen and (min-width: 35em) {}
 
 @media print,
 (-webkit-min-device-pixel-ratio: 1.25),
 (min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {
-}
+(min-resolution: 120dpi) {}
 
 @media print {
 
