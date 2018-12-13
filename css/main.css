@@ -21,49 +21,18 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-ul {
-    grid-gap: 10px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    text-align: center;
-    filter: drop-shadow(0 0 100px black);
-    margin: 0, auto;
-    padding-top: 20px;
+/* Displayed the nav as a table. */
+body>nav>div.container-fluid>div.navbar-header{
     font-family: 'Raleway', sans-serif;
 }
 
-/* Displayed the nav as a table. */
-header > ul {
-    display: table;
-    width: 100%;
-}
-
-header > ul > li {
-    display: table-cell;
-    text-align: center;
-    list-style-type: none;
-    width: 22px;
-}
-
 /* I used a slight variation of the styles from the p tag styles. */
-ul > li a {
-    margin: 6px -3px;
-    padding: 13px 5px;
-    background-color: rgba(255, 255, 255, 0.61);
-    text-decoration: none;
-    color: rgb(37, 179, 204);
-    font-size: 15px;
-    vertical-align: middle;
-    border: rgba(28, 140, 160, 0.85) .75px solid;
-    border-radius: 5px;
-    transition: 0.3s;
+body>nav>div.container-fluid>ul.nav.navbar-nav {
+    float: right;
 }
 
-ul li a:hover {
-    transition: .1s;
-    color: rgb(37, 179, 204);
-    border: rgba(28, 140, 160, 0.85) .75px solid;
-    border-radius: 12px;
-    transition: 0.3s;
+div.containerfluid{
+    position: sticky;
 }
 
 h1 {
@@ -71,7 +40,6 @@ h1 {
 }
 
 .slide {
-    margin-top: 5em;
     position: relative;
     padding: 15vh 10%;
     width: 100vw;
@@ -86,7 +54,7 @@ img {
     width: 320px;
     height: 240px;
     transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
-    padding: 10px;
+    padding: 20px;
     border-radius: 5px;
     background: rgba(240, 230, 220, .7);
 
@@ -95,7 +63,6 @@ img {
 img:last-of-type {
     transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
 }
-
 
 .header {
     text-align: center;
@@ -107,11 +74,13 @@ img:last-of-type {
 #title {
     background-image: url("https://lorempixel.com/640/480/abstract/6/");
     z-index: 2;
+    background-attachment: fixed;
+
 }
 
 #title h1 {
     transform: translateZ(.25px) scale(.75);
-    transform-origin: 50% 100%;
+    transform-origin: 50% 483%;
 
 }
 
@@ -134,8 +103,6 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
 }
 
-
-
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
@@ -145,7 +112,6 @@ p {
     background: #b3d4fc;
     text-shadow: none;
 }
-
 
 hr {
     display: block;
