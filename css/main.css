@@ -10,6 +10,8 @@ html {
     overflow: hidden;
 }
 
+
+
 body {
     margin: 0;
     padding: 0;
@@ -35,13 +37,14 @@ div.containerfluid{
     position: sticky;
 }
 
+
 h1 {
     font-size: 250%
 }
 
 .slide {
     position: relative;
-    padding: 15vh 10%;
+    padding: 20vh 10%;
     width: 100vw;
     box-sizing: border-box;
     transform-style: inherit;
