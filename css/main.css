@@ -13,13 +13,14 @@ html {
 body {
     margin: 0;
     padding: 0;
-    perspective: 1px;
     transform-style: preserve-3d;
     height: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
 }
+
+
 
 /* Displayed the nav as a table. */
 body>nav>div.container-fluid>div.navbar-header{
@@ -71,9 +72,7 @@ img:last-of-type {
 }
 
 #title h1 {
-    transform: translateZ(.25px) scale(.75);
-    transform-origin: 50% 750%;
-
+    font-size: 50px;
 }
 
 
