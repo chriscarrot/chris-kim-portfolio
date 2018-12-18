@@ -15,13 +15,14 @@ html {
 body {
     margin: 0;
     padding: 0;
-    perspective: 1px;
     transform-style: preserve-3d;
     height: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
 }
+
+
 
 /* Displayed the nav as a table. */
 body>nav>div.container-fluid>div.navbar-header{
@@ -31,15 +32,6 @@ body>nav>div.container-fluid>div.navbar-header{
 /* I used a slight variation of the styles from the p tag styles. */
 body>nav>div.container-fluid>ul.nav.navbar-nav {
     float: right;
-}
-
-div.containerfluid{
-    position: sticky;
-}
-
-
-h1 {
-    font-size: 250%
 }
 
 .slide {
@@ -82,183 +74,8 @@ img:last-of-type {
 }
 
 #title h1 {
-    transform: translateZ(.25px) scale(.75);
-    transform-origin: 50% 483%;
-
+    font-size: 50px;
 }
 
-body h1 {
-    padding-left: 2.5%;
-    padding-top: 1%;
-    color: rgb(37, 179, 204);
-    font-family: 'Raleway', sans-serif;
-}
 
-p {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2vw;
-    font-family: 'Open Sans', sans-serif;
-    background-color: rgba(0, 0, 0, 0.8);
-    border: rgb(37, 179, 204) 4px solid;
-    border-radius: 5px;
-    color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
-}
 
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
-}
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-textarea {
-    resize: vertical;
-}
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-.hidden {
-    display: none !important;
-}
-
-.visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap;
-}
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-    white-space: inherit;
-}
-
-.invisible {
-    visibility: hidden;
-}
-
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    /* 1 */
-    display: table;
-    /* 2 */
-}
-
-.clearfix:after {
-    clear: both;
-}
-
-@media only screen and (min-width: 35em) {}
-
-@media print,
-(-webkit-min-device-pixel-ratio: 1.25),
-(min-resolution: 1.25dppx),
-(min-resolution: 120dpi) {}
-
-@media print {
-
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important;
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
-
-    a[href]:after {
-        content: " ("attr(href) ")";
-    }
-
-    abbr[title]:after {
-        content: " ("attr(title) ")";
-    }
-
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
-
-    pre {
-        white-space: pre-wrap !important;
-    }
-
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
-
-    thead {
-        display: table-header-group;
-    }
-
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
-
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
-}
