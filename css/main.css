@@ -7,7 +7,7 @@ html {
     font-size: 1em;
     line-height: 1.4;
     height: 100%;
-    overflow: hidden;
+
 }
 
 
@@ -20,6 +20,7 @@ body {
     overflow-y: scroll;
     overflow-x: hidden;
     font-family: 'Raleway', sans-serif;
+    position: relative;
 }
 
 
@@ -30,7 +31,7 @@ body>nav>div.container-fluid>div.navbar-header{
 }
 
 /* I used a slight variation of the styles from the p tag styles. */
-body>nav>div.container-fluid>ul.nav.navbar-nav {
+body>nav>div.container-fluid>div>#myNavbar>ul.nav.navbar-nav>li>a {
     float: right;
 }
 
@@ -67,7 +68,7 @@ img:last-of-type {
 }
 
 #title {
-    background-image: url("https://lorempixel.com/640/480/abstract/6/");
+    background-image: url("https://images.pexels.com/photos/249074/pexels-photo-249074.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     z-index: 2;
     background-attachment: fixed;
 
