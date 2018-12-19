@@ -71,3 +71,7 @@ img:last-of-type {
 #title h1 {
     font-size: 50px;
 }
+
+html>body>div#Home.container>div.panel.panel-default>div.panel-body {
+    font-size: 20px;
+}
