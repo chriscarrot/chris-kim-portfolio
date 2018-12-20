@@ -29,6 +29,7 @@ body>nav>div.container-fluid>div.navbar-header{
 /* I used a slight variation of the styles from the p tag styles. */
 body>nav>div>div>#myNavbar>ul.nav.navbar-nav {
     float: right;
+    font-family: 'Raleway', sans-serif;
 }
 
 .slide {
@@ -70,8 +71,34 @@ img:last-of-type {
 
 #title h1 {
     font-size: 50px;
+    font-family: 'Raleway', sans-serif;
 }
 
-html>body>div#Home.container>div.panel.panel-default>div.panel-body {
+html > body > div#Home.container > div.panel.panel-default > div.panel-body {
     font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+html > body > div#WorkExperience.container > div.panel.panel-default > div.panel-body {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+html > body > div#AboutMe.container{
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+html > body > div#Education.container > div.panel.panel-default > div.panel-body {
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+html > body > div.container > h2{
+    font-family: 'Raleway', sans-serif;
+}
+body > div#AboutMe.container > div#Education.container > footer{
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: silver;
 }
